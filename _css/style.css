@@ -1,0 +1,120 @@
+
+*{
+	padding: 0;
+	margin: 0;
+	-webkit-box-sizing: border-box;;
+	-moz-box-sizing: border-box;;
+	box-sizing: border-box;;
+}
+.wrrapNavbar{
+	 /*background-color: rgba(0,0,0,.6); */
+	position: absolute;
+	width: 100%;
+}
+.navbar-default{
+	background-color: transparent;
+	border-bottom: 0px;
+	border: 0px;
+	padding: 0;
+	margin: 0;
+	border-radius: 0;
+	padding-top: 20px;
+	height: 100px;
+}
+.navbar-default .navbar-brand{
+	font-size: 30px;
+	-webkit-transition: all 0.2s ease-out;
+	transition: all 0.2s ease-out;
+}
+
+.navbar-default .navbar-brand,.navbar-default .navbar-brand:hover{
+	color: #fff;
+	margin-left: 110px !important;
+}
+
+.navbar-right {
+    float: right!important;
+    margin-right: 63px !important;
+}
+
+.shrink{
+	background-color: rgba(51,51,51,1) !important;
+	height: 60px;
+	padding-top: 0;
+	-webkit-transition: all 0.5s ease-out;
+	-moz-transition: all 0.5s ease-out;
+	-o-transition: all 0.5s ease-out;
+	transition: all 0.5s ease-out;
+}
+
+.shrink .navbar-brand{
+	font-size: 20px;
+}
+
+.navbar-default .navbar-brand span{
+	color: #7a1723; 
+/*        art*/
+}
+
+.corLogo{
+    color: #7a1723; 
+}
+.navbar-default .navbar-nav>li>a:hover,
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
+	background: transparent;
+	color:  #7a1723;
+/*        home*/
+}
+
+.navbar-default .navbar-nav>li>a{
+	color: #fff;
+	font-size: 16px;
+	font-weight: 500;
+}
+
+
+.firstSection{
+	height: 100vh;
+	width: 100%;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.76),rgba(0, 0, 0, 0)),url(../img/img7.jpg);
+	background-position: center;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+/*.ImgListaData{
+    background-image:url(../img/prote01.png);
+    height: 80vh;
+width: 100%;
+}*/
+.menu{
+	height: 14vh;
+	width: 100%;
+	background-color: rgba(51,51,51,1);
+	
+}
+#conteudoCarro{
+	background-color:#fff;
+        width: 100%;
+	height: 480vh;
+}
+#conteudoCarro1{
+	background-color:#fff;
+        width: 100%;
+	height: 500vh;
+}
+#reserva{
+	background-color:#e6e6e6;
+        width: 100%;
+	height: 30vh;
+}
+#maisDetalhes{
+	background-color: #fff;
+        width: 100%;
+	height: 65vh;
+}
+#rodape{
+	background-color: rgba(51,51,51,1);
+        width: 100%;
+	height: 10vh;
+}
